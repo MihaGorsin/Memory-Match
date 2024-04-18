@@ -1,0 +1,96 @@
+ /*
+CSS styles for the Memory Game project.
+*/
+
+ /* I'm using CSS and Bootstrap.*/
+
+body {
+    background: rgb(167, 167, 167);
+    background: linear-gradient(90deg, rgb(190, 190, 190) 0%, rgb(235, 235, 235) 52%, rgb(151, 151, 151) 100%); 
+}
+
+
+  /* fonts */
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f9b127;
+    text-shadow: 7px 5px 0px #d9372a;
+    font-size: 80px;
+}
+
+
+ 
+.anton-regular-score {
+    font-family: "Anton", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.score {
+    margin-top: 40px;
+}
+
+
+  .top {
+    margin-top: 50px;
+}
+
+
+.bottom {
+    margin-bottom: 100px;
+}
+
+
+  /* Grid styling */
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:rgb(226, 226, 226);
+    padding: 20px;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.gridItem {
+    background-color: white;
+    border: 1px solid #707070;
+    padding: 20px;
+}
+
+
+/* Right and wrong answer */
+.redBorder {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #d9372a;
+    padding: 20px;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.greenBorder {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:rgb(240, 181, 20);
+    padding: 20px;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* Button styling + Bootstrap */
+.btn {
+    margin-top: 20px;
+    background-color: #d9372a;
+    border: #d9372a;
+}
+
